@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navabar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavSide {
+  padding: 20px;
+}
+
+.NavSide span {
+  margin: 0 10px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.NavSide span::after {
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  background-color: #fafafa;
+  transition: all ease-in 0.5s;
+}
+
+.NavSide span:hover::after {
+  transition: all ease-in 0.5s;
+  width: 100%;
+}
