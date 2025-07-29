@@ -2,12 +2,12 @@ import "./Product.css";
 import { useState, useEffect } from "react";
 
 const Product = () => {
-  const [ShopingCart, setShopingCart] = useState("Ali");
+  const [ShopingCart, setShopingCart] = useState(1);
 
   const HndelChange = () => {
-    setShopingCart("mamad");
-    console.log(ShopingCart);
+    const Cart = setShopingCart(ShopingCart + 1);
   };
+  console.log(ShopingCart);
 
   return (
     <>
