@@ -24,7 +24,7 @@
   font-family: sans-serif;
 }
 
-.NavSide span a::after {
+.NavSide span a:after {
   content: "";
   top: 100%;
   left: 0;
@@ -38,4 +38,9 @@
 .NavSide span a:hover::after {
   transition: all ease-in 0.5s;
   width: 100%;
+}
+
+.Icon {
+  width: 25px;
+  height: 25px;
 }
