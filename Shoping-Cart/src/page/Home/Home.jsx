@@ -1,12 +1,13 @@
 import Navbar from "../../components/navbar/Navbar"
-import Product from "../../components/product/Product"
+import ProductPage from "../Product/Product"
+import { Route, Routes } from "react-router-dom"
 import "./Home.css"
 
 const Home = () => {
   return (
   <>
     <div className="Navbar-Wrapper"> <Navbar/> </div>
-    <div className="Product_Wrapper"> <Product/> </div>
+    <div className="Product_Wrapper"> <ProductPage/> </div>
   </>
   )
 }

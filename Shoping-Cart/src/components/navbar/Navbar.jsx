@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="Navabar">
         <div className="NavSide">
           <span>Product</span>
-          <span>Blog</span>
+          <span>About</span>
         </div>
         <div className="NavSide">
           <span>Shoping Cart</span>
