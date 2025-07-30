@@ -1,7 +1,7 @@
 import "./Product.css";
 import { useState, useEffect } from "react";
 
-const Product = () => {
+const Product = (props) => {
   const [ShopingCart, setShopingCart] = useState(1);
 
   const HndelChange = () => {
@@ -13,9 +13,9 @@ const Product = () => {
     <>
       <div className="product">
         <div className="Product-Item">
-          <div className="Image"></div>
+          <div className="Image"> {props.PrpData.img} </div>
           <div className="Button">
-            <button onClick={HndelChange}>Add to Shoping Cart</button>
+            <button onClick={HndelChange}> {props.PrpData.btn} </button>
           </div>
         </div>
       </div>
