@@ -39,8 +39,7 @@
 
 @media (max-width: 768px) {
   .Product-Item {
-    width: 50%;
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 
   .product {
