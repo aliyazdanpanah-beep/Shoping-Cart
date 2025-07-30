@@ -9,12 +9,14 @@
   display: flex;
   padding: 20px;
   flex-wrap: wrap;
+  gap: 1.33%;
 }
 
 .Product-Item {
-  width: 24%;
+  width: 32%;
   height: 350px;
   background-color: #181818;
+  margin-bottom: 20px;
 }
 
 .Image {
@@ -27,4 +29,21 @@
   display: flex;
   margin: 20px 0;
   justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .Product-Item {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Product-Item {
+    width: 48%;
+  }
+
+  .product {
+    padding: 10px;
+    gap: 4%;
+  }
 }

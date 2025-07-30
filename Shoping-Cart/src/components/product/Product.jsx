@@ -17,7 +17,7 @@ const Product = () => {
           <div className="Button">
             <button onClick={HndelChange}>Add to Shoping Cart</button>
           </div>
-        </div> 
+        </div>
       </div>
     </>
   );
