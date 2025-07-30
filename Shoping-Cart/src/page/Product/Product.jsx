@@ -4,7 +4,6 @@ const ProductPage = () => {
   return (
     <>
       <Product />
-      <h1>Product Page</h1>
     </>
   );
 };

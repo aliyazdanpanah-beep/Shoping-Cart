@@ -1,6 +1,6 @@
 const ShopingCart = () => {
   return (
-     <h1>Shping Cart PAge</h1>
+     <h1>Shping Cart Page</h1>
   )
 }
 
