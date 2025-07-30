@@ -6,6 +6,11 @@
         "id": 1,
         "img": "",
         "btn": "Add to Cart"
+      },
+      {
+         "id": 2,
+         "img": "",
+         "btn": "Add to Cart"
       }
     ]
   }
