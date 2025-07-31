@@ -1,6 +1,5 @@
 import "./App.css";
 import Home from "./page/Home/Home";
-import { useContext, createContext } from "react";
 import { Routes, Route } from "react-router-dom";
 import ProductPage from "./page/Product/Product";
 import About from "./page/About/about";
@@ -9,7 +8,7 @@ import { ShopContextProvider } from "./context/context";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <ShopContextProvider>
         <Home />
         <Routes>

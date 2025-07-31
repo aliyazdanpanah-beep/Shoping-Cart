@@ -1,4 +1,4 @@
-import { createContext, useContext } from "react";
+import { createContext } from "react";
 import { useState } from "react";
 
 export const ShopContext = createContext(null);
@@ -14,8 +14,7 @@ export const ShopContextProvider = (props) => {
 
   return (
     <ShopContextProvider value={ContextValue}>
-      {" "}
-      {props.children}{" "}
+      {props.children}
     </ShopContextProvider>
   );
 };
