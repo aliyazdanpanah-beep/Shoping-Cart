@@ -15,7 +15,7 @@ const Product = (props) => {
         <div className="Product-Item">
           <div className="Image"> {props.PrpData.img} </div>
           <div className="Button">
-            <button onClick={HndelChange}> {props.PrpData.btn} </button>
+            <button onClick={HndelChange} className="btn btn-primary"> {props.PrpData.btn} </button>
           </div>
         </div>
       </div>
