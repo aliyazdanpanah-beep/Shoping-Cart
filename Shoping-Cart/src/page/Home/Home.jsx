@@ -11,11 +11,6 @@ const Home = () => {
       <div className="Navbar-Wrapper">
         <Navbar />
       </div>
-      <Routes>
-        <Route path="/" element={<ProductPage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/Cart" element={<ShopingCart/>} />
-      </Routes>
     </>
   );
 };
