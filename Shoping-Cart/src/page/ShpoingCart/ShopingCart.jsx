@@ -1,7 +1,5 @@
-const ShopingCart = () => {
-  return (
-     <h1>Shping Cart Page</h1>
-  )
-}
+const ShopingCart = (props) => {
+  return <h1> Shoping Cart Pagae </h1>;
+};
 
-export default ShopingCart
+export default ShopingCart;

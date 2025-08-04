@@ -4,7 +4,7 @@ import { useContext } from "react";
 
 const Product = (props) => {
   const { AddtoCart, RemoveFromCart, cartItems } = useContext(ShopContext);
-  const productId = props.PrpData.id; // فرض می‌کنیم هر محصول یک id منحصر به فرد دارد
+  const productId = props.PrpData.id;
 
   return (
     <div className="product">
@@ -18,7 +18,6 @@ const Product = (props) => {
             {props.PrpData.btnS}
           </button>
           <p>{cartItems[productId] || 0}</p>{" "}
-          {/* نمایش تعداد آیتم‌های این محصول در سبد */}
           <button
             onClick={() => RemoveFromCart(productId)}
             className="btn btn-primary m-auto"
