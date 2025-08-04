@@ -7,8 +7,15 @@ const Product = (props) => {
         <div className="Product-Item">
           <div className="Image"> {props.PrpData.img} </div>
           <div className="Button">
-            <button className="btn btn-primary m-auto "> {props.PrpData.btnS} </button>
-            <button className="btn btn-primary m-auto "> {props.PrpData.btnM} </button>
+            <button className="btn btn-primary m-auto ">
+              {" "}
+              {props.PrpData.btnS}{" "}
+            </button>
+            <p>0</p>
+            <button className="btn btn-primary m-auto ">
+              {" "}
+              {props.PrpData.btnM}{" "}
+            </button>
           </div>
         </div>
       </div>

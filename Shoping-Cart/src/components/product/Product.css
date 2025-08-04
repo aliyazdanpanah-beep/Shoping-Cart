@@ -28,7 +28,13 @@
 .Button {
   display: flex;
   margin: 20px 0;
+  align-items: center;
+  text-align: center;
   justify-content: center;
+}
+
+.Button p {
+  color: #fafafa;
 }
 
 @media (max-width: 992px) {
