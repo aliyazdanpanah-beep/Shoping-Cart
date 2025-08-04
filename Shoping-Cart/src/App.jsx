@@ -23,13 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<ProductPage />} />
           <Route path="/about" element={<About />} />
-          {product.map((IdData) => (
-            <Route
-              path="/cart"
-              element={<ShopingCart key={IdData.id} />}
-              IdDate={IdData}
-            />
-          ))}
+          <Route path="/cart" element={<ShopingCart />} />
         </Routes>
       </ShopContextProvider>
     </div>
