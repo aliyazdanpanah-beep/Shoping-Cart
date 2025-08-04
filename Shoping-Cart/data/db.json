@@ -8,19 +8,29 @@
         "btn": "Add to Cart"
       },
       {
-         "id": 2,
-         "img": "",
-         "btn": "Add to Cart"
+        "id": 2,
+        "img": "",
+        "btn": "Add to Cart"
       },
-       {
-         "id": 3,
-         "img": "",
-         "btn": "Add to Cart"
+      {
+        "id": 3,
+        "img": "",
+        "btn": "Add to Cart"
       },
-       {
-         "id": 4,
-         "img": "",
-         "btn": "Add to Cart"
+      {
+        "id": 4,
+        "img": "",
+        "btn": "Add to Cart"
+      },
+      {
+        "id": 5,
+        "img": "",
+        "btn": "Add to Cart"
+      },
+      {
+        "id": 6,
+        "img": "",
+        "btn": "Add to Cart"
       }
     ]
   }
