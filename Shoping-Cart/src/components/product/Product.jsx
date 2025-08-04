@@ -1,5 +1,4 @@
 import "./Product.css";
-import { useState, useEffect } from "react";
 
 const Product = (props) => {
   return (
@@ -8,7 +7,8 @@ const Product = (props) => {
         <div className="Product-Item">
           <div className="Image"> {props.PrpData.img} </div>
           <div className="Button">
-            <button className="btn btn-primary"> {props.PrpData.btn} </button>
+            <button className="btn btn-primary m-auto "> {props.PrpData.btnS} </button>
+            <button className="btn btn-primary m-auto "> {props.PrpData.btnM} </button>
           </div>
         </div>
       </div>
